@@ -1,0 +1,4 @@
+This log are recorded in America/Chicago
+------------------------------------------------
+2023-10-31 07:34:21No Job dispatch found to be closed using query <b>select * from JobDispatch where DispatchedDate < '2023-11-01' and DispatchOpen !='closed'</b>
+2023-10-31 07:34:31No Job dispatch found to be closed using query <b>select * from JobDispatch where DispatchedDate < '2023-11-01' and DispatchOpen !='closed'</b>

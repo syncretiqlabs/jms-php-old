@@ -1,0 +1,7 @@
+This log are recorded in Pacific/Auckland
+------------------------------------------------
+2023-11-01 09:20:02No Job dispatch found to be closed using query <b>select * from JobDispatch where DispatchedDate < '2023-11-02' and DispatchOpen !='closed'</b>
+2023-11-01 09:21:01No Job dispatch found to be closed using query <b>select * from JobDispatch where DispatchedDate < '2023-11-02' and DispatchOpen !='closed'</b>
+2023-11-01 09:22:02No Job dispatch found to be closed using query <b>select * from JobDispatch where DispatchedDate < '2023-11-02' and DispatchOpen !='closed'</b>
+2023-11-01 09:23:02No Job dispatch found to be closed using query <b>select * from JobDispatch where DispatchedDate < '2023-11-02' and DispatchOpen !='closed'</b>
+2023-11-01 09:24:01No Job dispatch found to be closed using query <b>select * from JobDispatch where DispatchedDate < '2023-11-02' and DispatchOpen !='closed'</b>

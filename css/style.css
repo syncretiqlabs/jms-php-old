@@ -1,0 +1,304 @@
+/** Variables **/
+body {
+  color: #333;
+  font-family: "Montserrat", sans-serif;
+  background: #f8f8f8;
+}
+
+body,
+p,
+li,
+ul {
+  font-size: 14px;
+}
+
+a {
+  color: #0c89ba;
+}
+
+.btn {
+  border-radius: 3px;
+}
+
+.btn-primary {
+  background: #f96c46;
+  color: white;
+  font-weight: 600;
+  font-size: 16px;
+  border: 0;
+}
+.btn-primary:hover {
+  background: #f9a66e;
+  color: white;
+}
+
+.navbar-toggler {
+  border: 2px solid rgba(255, 255, 255, 0.2);
+  color: white;
+}
+
+.btn-lg {
+  padding: 15px 30px;
+}
+
+.btn-secondary {
+  background: #3ed2f9;
+  color: white;
+  border: 0;
+  font-size: 16px;
+  font-weight: 600;
+}
+.btn-secondary:hover {
+  background: #3ed2f9;
+  border-color: #3ed2f9;
+  text-decoration: none;
+}
+
+.btn-link {
+  color: #0c89ba;
+  border: 2px solid #0c89ba;
+  padding: 10px 20px;
+}
+.btn-link:hover {
+  text-decoration: none;
+  background: #0c89ba;
+  color: #fff;
+}
+
+p {
+  font-size: 14px;
+}
+
+h1 {
+  font-size: 20px;
+  color: #f96c46;
+}
+
+h2 {
+  font-size: 32px;
+  color: #0c89ba;
+  font-weight: 700;
+}
+
+h4 {
+  color: #097393;
+}
+
+h5 {
+  font-weight: 600;
+  font-size: 16px;
+}
+
+h6 {
+  color: #777;
+  font-size: 14px;
+}
+
+header {
+  background: #0c89ba;
+}
+
+.main-nav a {
+  color: #beddfd;
+  border-radius: 3px;
+  text-decoration: none;
+  font-weight: 600;
+}
+.main-nav a:hover {
+  background: rgba(0, 0, 0, 0.2);
+  color: white;
+}
+.main-nav .active {
+  background: rgba(0, 0, 0, 0.2);
+  color: white;
+}
+.main-nav li.active a {
+  color: #0c89ba;
+}
+
+.userMenu a.userDropDown {
+  color: #beddfd;
+  text-decoration: none;
+  margin-left: 4px;
+  font-weight: 500;
+}
+.userMenu a.userDropDown:hover {
+  text-decoration: underline;
+}
+.userMenu span {
+  color: #beddfd;
+}
+
+.dropdown-menu a {
+  font-size: 14px;
+  color: #0c89ba;
+}
+
+section {
+  padding: 40px 0 60px 0;
+}
+
+.form-control {
+  font-size: 14px;
+}
+
+/** Login **/
+.form-signin {
+  background: #0c89ba;
+  color: white;
+  border-radius: 6px;
+}
+.form-signin .form-control {
+  border: 0;
+  height: 50px;
+}
+.form-signin input[type="checkbox"],
+.form-signin input[type="radio"] {
+  width: 18px;
+  height: 18px;
+  margin-right: 5px;
+}
+.form-signin h1 {
+  color: white;
+}
+.form-signin a {
+  color: #3ed2f9;
+}
+
+.searchBar .input-group .form-control {
+  height: 56px;
+}
+
+.nav-pills .nav-link.active,
+.nav-pills .show > .nav-link {
+  background: #f96c46;
+}
+
+.footer {
+  font-size: 13px;
+  color: white;
+  background: #333;
+  bottom: 0;
+}
+
+/** Table **/
+.mainTable,
+.boxStyle {
+  background: white;
+  border-radius: 6px;
+  box-shadow: 0 0 6px rgba(0, 0, 0, 0.1);
+}
+
+.table .thead-dark th {
+  background: #777;
+  border-color: #777;
+}
+
+.table-hover tbody tr:hover {
+  background: #f8efd9;
+  cursor: pointer;
+}
+
+.table td,
+.table th {
+  border-top: 1px solid #eee;
+}
+
+th a.caret {
+  color: white;
+  text-decoration: none;
+}
+
+i.active {
+  color: #f96c46;
+  font-size: 20px;
+}
+
+i.inactive {
+  color: #ccc;
+  font-size: 20px;
+}
+
+.rightContent {
+  font-size: 14px;
+}
+
+.btn-tertiary:not(:disabled):not(.disabled).active,
+.btn-tertiary:not(:disabled):not(.disabled):active,
+.show > .btn-tertiary.dropdown-toggle {
+  background: #0c89ba;
+  color: white;
+}
+
+.btn-tertiary {
+  background: #ccc;
+  color: #777;
+}
+.btn-tertiary:hover,
+.btn-tertiary:active {
+  color: #777;
+}
+
+.btn-secondary:not(:disabled):not(.disabled).active:focus,
+.btn-secondary:not(:disabled):not(.disabled):active:focus,
+.show > .btn-secondary.dropdown-toggle:focus {
+  background: #0c89ba;
+  box-shadow: none;
+}
+
+/* .dropdownFilter,
+.dropdownFilterBig {
+  font-size: 14px;
+}
+.dropdownFilter a,
+.dropdownFilterBig a {
+  padding: 5px 10px;
+  font-size: 13px;
+  text-decoration: none;
+  display: block;
+  float: left;
+}
+.dropdownFilter a:hover,
+.dropdownFilterBig a:hover {
+  border-radius: 15px;
+  background: #777;
+  color: white;
+}
+.dropdownFilter a.active,
+.dropdownFilterBig a.active {
+  border-radius: 15px;
+  background: #777;
+  color: white;
+} */
+
+.dropdownFilter {
+  width: 420px;
+}
+
+.dropdownFilterBig {
+  width: 400px;
+}
+
+.disable_contact {
+  opacity: 0.5;
+  pointer-events: none;
+}
+
+/** Responsive **/
+@media (max-width: 991px) {
+  .icofont-navigation-menu {
+    color: rgba(255, 255, 255, 0.5);
+  }
+
+  .main-nav a {
+    display: block;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+  }
+
+  .userMenu {
+    display: block;
+    width: 100%;
+    padding: 15px;
+  }
+}
+/*# sourceMappingURL=style.css.map */
