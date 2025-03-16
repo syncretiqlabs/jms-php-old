@@ -105,9 +105,9 @@ function sendMail($data = null){
 		//Whether to use SMTP authentication
 		$mail->SMTPAuth = true;
 		//Username to use for SMTP authentication - use full email address for gmail
-		$mail->Username = 'AKIAWPU3USQYPRIGJQBD';
+		$mail->Username = 'smtp_user_name';
 		//Password to use for SMTP authentication
-		$mail->Password = 'd99SnDYKZKA01MT8JVI2is9pZosZxpDatRVVnYAg';
+		$mail->Password = 'smtp_password';
 		//Set who the message is to be sent from
 		$mail->setFrom($from_email, $from_name);
 		//Set who the message is to be sent to
